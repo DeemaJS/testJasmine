@@ -1,0 +1,19 @@
+{
+  "name": "testjasmine",
+  "version": "1.0.0",
+  "description": "Simple app with test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeemaJS/testJasmine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeemaJS/testJasmine/issues"
+  },
+  "homepage": "https://github.com/DeemaJS/testJasmine#readme"
+}
