@@ -4,7 +4,7 @@
   "description": "Simple app with test",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/DeemaJS/testJasmine/issues"
   },
-  "homepage": "https://github.com/DeemaJS/testJasmine#readme"
+  "homepage": "https://github.com/DeemaJS/testJasmine#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.65.0"
+  }
 }
