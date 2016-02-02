@@ -1,5 +1,3 @@
-describe("AddressBook", function() {
-    it("should add contact", function() {
-     
-    });
-  });
+function AddressBook () {}
+
+function Contact () {}
