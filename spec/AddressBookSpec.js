@@ -5,6 +5,6 @@ describe("Address Book", function() {
 
       addressBook.addContact(contact); 
 
-      expect(addressBook.getContact(0).toBe(contact));
+      expect(addressBook.getContact(0)).toBe(contact);
     });
 });
